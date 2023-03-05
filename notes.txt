@@ -8,3 +8,7 @@ So if you'd try
 fmt.Println(math.e)
 That wouldn't work, because only variables with a capital letter are exported.
 
+3) A return statement without arguments returns the named return values. This is known as a "naked" return.
+
+Naked return statements should be used only in short functions, as with the example shown here. They can harm readability in longer functions.
+
