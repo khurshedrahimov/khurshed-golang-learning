@@ -12,3 +12,10 @@ That wouldn't work, because only variables with a capital letter are exported.
 
 Naked return statements should be used only in short functions, as with the example shown here. They can harm readability in longer functions.
 
+4) They are bitwise shift operators. x << y means x × 2y, while x >> y means x × 2−y or, equivalently, x ÷ 2y. 
+
+5) %t	the word true or false
+
+6)%q	a single-quoted character literal safely escaped with Go syntax.
+
+7)
